@@ -30,48 +30,66 @@
   </div>
 </section>
 <section class="section-home-product panel yellow">
-  <img id="foto_section1" src="assets/images/foto.png" alt="">
-  <img id="camera_section1" src="assets/images/camera.png" alt="">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="section__title mt-400">LOREM IPSUM</div>
-        <div class="section__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+  <div class="sub-section">
+    <img id="camera_section1" src="assets/images/camera.png" alt="">
+    <img id="foto_section1" src="assets/images/foto.png" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="section__title mt-400">LOREM IPSUM</div>
+          <div class="section__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <img id="cap_section1" src="assets/images/cap-camera.png" alt="">
-        <img id="coffee_section1" src="assets/images/coffee-caramel.png" alt="">
-        <img id="coffee-sachet_section1" src="assets/images/caramel-pack-1.png" alt="">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6"></div>
-      <div class="col-md-6">
-        <div class="section__title">LOREM IPSUM</div>
-        <div class="section__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+        <div class="col-md-6">
+          <img id="cap_section1" src="assets/images/cap-camera.png" alt="">
+          <img id="coffee_section1" src="assets/images/coffee-caramel.png" alt="">
+          <img id="coffee-sachet_section1" src="assets/images/caramel-pack-1.png" alt="">
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="section__title mt-400">LOREM IPSUM</div>
-        <div class="section__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+  </div>
+  <div class="sub-section">
+    <img id="mic_section2" src="assets/images/mic.png" alt="">
+    <img id="kacamata_section2" src="assets/images/kacamata.png" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img id="coffee_section2" src="assets/images/coffee-2.png" alt="">
+          <img id="sachet_section2" src="assets/images/mocchachino-sachet.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="section__title">LOREM IPSUM</div>
+          <div class="section__desc mb-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </div>
         </div>
       </div>
-      <div class="col-md-6"></div>
+    </div>
+  </div>
+  <div class="sub-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="section__title mt-400">LOREM IPSUM</div>
+          <div class="section__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </div>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
     </div>
   </div>
 </section>
