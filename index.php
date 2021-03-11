@@ -75,20 +75,22 @@
     </div>
   </div>
   <div class="sub-section">
+    <img id="spoons_section2" src="assets/images/measuring-spoon.png" alt="">
+    <img id="whisk_section2" src="assets/images/hand-whisk.png" alt="">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="section__title mt-400">LOREM IPSUM</div>
-          <div class="section__desc">
+          <div class="section__title mt-300">LOREM IPSUM</div>
+          <div class="section__desc mb-200">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
           </div>
         </div>
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <img id="coffee_section3" src="assets/images/coffee-tiramisu.png" alt="">
+          <img id="sachet_section3" src="assets/images/sachet-3.png" alt="">
+        </div>
       </div>
     </div>
   </div>

@@ -77,6 +77,14 @@ section {
   margin-top: 400px;
 }
 
+.mt-300 {
+  margin-top: 300px;
+}
+
+.mb-200 {
+  margin-bottom: 200px !important;
+}
+
 .mb-300 {
   margin-bottom: 300px !important;
 }
@@ -443,6 +451,35 @@ section {
   bottom: 80px;
   right: -190px;
   width: 360px;
+}
+
+#spoons_section2 {
+  position: absolute;
+  left: -70px;
+  top: 60px;
+  width: 320px;
+}
+
+#whisk_section2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 840px;
+  z-index: 1;
+}
+
+#coffee_section3 {
+  width: 420px;
+  position: absolute;
+  left: -220px;
+  top: 40px;
+}
+
+#sachet_section3 {
+  position: absolute;
+  width: 320px;
+  right: 0;
+  top: 180px;
 }
 
 /*# sourceMappingURL=style.css.map */
