@@ -10,22 +10,21 @@
       <div class="main-menu__img-container">
         <!-- <img src="assets/images/img-on-main-menu.png" alt=""> -->
         <div class="main-menu-thumb" id="thumbHome">
-          <img src="https://via.placeholder.com/700x800" alt="">
-          <img src="https://via.placeholder.com/700x500" alt="">
+          <img src="assets/images/menu_home_b.png" alt="">
+          <img src="assets/images/menu_home_a.png" alt="">
         </div>
         <div class="main-menu-thumb" id="thumbProduct">
-          <img src="https://via.placeholder.com/600x500" alt="">
-          <img src="https://via.placeholder.com/600x500" alt="">
-          <img src="https://via.placeholder.com/600x500" alt="">
+          <img src="assets/images/menu_product_a.png" alt="">
+          <img src="assets/images/menu_product_b.png" alt="">
+          <img src="assets/images/menu_product_c.png" alt="">
         </div>
         <div class="main-menu-thumb" id="thumbIniMauGue">
-          <!-- <img src="assets/images/img-on-main-menu.png" alt=""> -->
-          <img src="https://via.placeholder.com/400x400" alt="">
+          <img src="assets/images/img-on-main-menu.png" alt="">
         </div>
         <div class="main-menu-thumb" id="thumbRecipe">
-          <img src="https://via.placeholder.com/300x200" alt="">
-          <img src="https://via.placeholder.com/400x600" alt="">
-          <img src="https://via.placeholder.com/300x400" alt="">
+          <img src="assets/images/menu_recipe_a.png" alt="">
+          <img src="assets/images/menu_recipe_b.png" alt="">
+          <img src="assets/images/menu_recipe_c.png" alt="">
         </div>
       </div>
     </div>
@@ -35,7 +34,7 @@
           <a href="#">HOME</a>
         </li>
         <li class="link-thumb" data-target="#thumbProduct">
-          <a href="#">PRODUCT</a>
+          <a href="detail-caramel.php">PRODUCT</a>
         </li>
         <li class="link-thumb" data-target="#thumbIniMauGue">
           <a href="#">#IniMauGue</a>
