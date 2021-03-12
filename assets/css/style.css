@@ -484,6 +484,7 @@ section.bg-red {
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
 }
 
 .parallax-scene {
@@ -525,7 +526,7 @@ section.bg-red {
 
 .headline-text__container {
   width: 50%;
-  margin: 180px auto;
+  margin: 20vh auto 10vh auto;
 }
 .headline-text__container img {
   width: 100%;
@@ -545,12 +546,12 @@ section.bg-red {
 .kopi-1 {
   width: 320px;
   left: 100px;
-  top: 490px;
+  top: 54vh;
 }
 
 .kopi-2 {
   width: 280px;
-  top: 220px;
+  top: 23vh;
   right: -50px;
 }
 
