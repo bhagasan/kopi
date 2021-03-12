@@ -9,7 +9,7 @@
           EAST JAKARTA 13910<br />
           INDONESIA
         </p>
-        <div class="footer__social-media mt-5 mb-4">
+        <div class="footer__social-media mb-4">
           <div class="row">
             <div class="col-3">
               <a href="#">
@@ -61,7 +61,7 @@
           </div>
           <div class="row justify-content-end">
             <div class="col-6">
-              <div class="input-group mt-5">
+              <div class="input-group foem-email mt-5">
                 <input type="text" class="form-control underline text-center" placeholder="Email Address"
                   aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
@@ -74,7 +74,7 @@
       </div>
     </div>
     <div class="row justify-content-between copyright">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="row">
           <div class="col-6">
             <a href="#">Term & Condition</a>

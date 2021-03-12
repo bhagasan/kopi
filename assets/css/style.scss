@@ -244,6 +244,10 @@ section{
     font-family: Volte-semibold;
   }
 
+  .foem-email{
+    width: 320px;
+  }
+
   .logo-wings{
     width: 140px;
   }
@@ -261,11 +265,12 @@ section{
   }
 
   &__social-media{
-    width: 360px;
+    width: 280px;
     text-align: center;
+    margin-top: 100px;
     a{
       img{
-        width: 64px;
+        width: 52px;
       }
     }
   }

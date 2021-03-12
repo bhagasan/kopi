@@ -198,6 +198,9 @@ section.bg-red {
   color: white;
   font-family: Volte-semibold;
 }
+.footer .foem-email {
+  width: 320px;
+}
 .footer .logo-wings {
   width: 140px;
 }
@@ -210,11 +213,12 @@ section.bg-red {
   margin-top: 12px;
 }
 .footer__social-media {
-  width: 360px;
+  width: 280px;
   text-align: center;
+  margin-top: 100px;
 }
 .footer__social-media a img {
-  width: 64px;
+  width: 52px;
 }
 
 .section-detail-headline {
