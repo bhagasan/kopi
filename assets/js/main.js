@@ -55,6 +55,12 @@
       })
     });
 
+    $(".link-thumb").on("mouseover", function(){
+      var target = $(this).attr("data-target");
+      $(".main-menu-thumb").removeClass("main-menu-thumb--active");
+      $(target).addClass("main-menu-thumb--active");
+    })
+
 })(jQuery);
 
 // $("#action_sobek").on("mousedown", function(){

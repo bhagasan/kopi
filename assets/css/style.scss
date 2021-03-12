@@ -101,6 +101,7 @@ body{
 section{
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
 
   &.bg-yellow{
     background-image: url('../images/bg-yellow.png');
@@ -485,6 +486,7 @@ section{
   }
 
   &__img-container{
+    position: relative;
     img{
       width: 540px;
       margin-left: auto;
@@ -756,4 +758,74 @@ section{
   width: 320px;
   right: 0;
   top: 180px;
+}
+
+.main-menu-thumb{
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+
+  img{
+    box-shadow: 0 4px 12px rgb(0 0 0 / 50%);
+  }
+
+  &--active{
+    opacity: 1;
+  }
+
+
+  &#thumbHome{
+    img{
+      &:first-child{
+        right: 0;
+        top: 0;
+        width: 320px;
+      }
+      &:last-child{
+        position: absolute;
+        bottom: 0;
+        right: 200px;
+        width: 320px;
+      }
+    }
+  }
+
+  &#thumbProduct{
+    img{
+      width: 300px;
+      display: inline-block;
+      &:first-child{
+        margin-right: 50px;
+        margin-bottom: 140px;
+      }
+      &:nth-child(2){
+        position: absolute;
+        right: 180px; 
+        top: 140px;
+      }
+      &:last-child{
+        margin-bottom: 140px;
+      }
+    }
+  }
+
+  &#thumbRecipe{
+    img{
+      width: 300px;
+      display: inline-block;
+      &:first-child{
+        margin-right: 50px;
+        margin-top: 140px;
+      }
+      &:nth-child(2){
+        position: absolute;
+        right: 180px; 
+        bottom: 0;
+      }
+      &:last-child{
+        margin-top: 90px;  
+      }
+    }
+  }
 }
