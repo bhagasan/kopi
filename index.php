@@ -30,7 +30,7 @@
     <img src="assets/images/icon-scroll.png" alt="">
   </div>
 </section>
-<section class="section-home-product panel yellow">
+<section class="section-home-product bg-yellow">
   <div class="sub-section">
     <img id="camera_section1" src="assets/images/camera.png" alt="">
     <img id="foto_section1" src="assets/images/foto.png" alt="">

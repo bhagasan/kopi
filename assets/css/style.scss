@@ -444,12 +444,13 @@ section{
     list-style: none;
     padding: 0;
     li{
+      opacity: 0;
+      transition-duration: .5s;
+      transform: translateY(-10px);
       a{
         color: white;
         font-size: 72px;
         line-height: 1.7;
-        opacity: 0;
-        transition-duration: .3s;
         font-family: Volte-bold;
       }
     }
@@ -457,14 +458,29 @@ section{
 
   &__text-container{
     text-align: right;
-    padding-right: 32px;
+    padding-right: 72px;
     span{
       font-family: Volte-bold;
       color: white;
       font-size: 124px;
       line-height: 1;
       opacity: 0;
-      transition-duration: .3s;
+      transition-duration: .5s;
+      transform: translateX(30px);
+      display: inline-block;
+      position: relative;
+      letter-spacing: -10px;
+      transition-timing-function: cubic-bezier(.6,.48,.61,1.23);
+      &:after{
+        content: '';
+        position: absolute;
+        right: -10px;
+        top: 0;
+        width: 50px;
+        height: 100%;
+        background: rgb(255,0,0);
+        background: linear-gradient(90deg, rgba(255,0,0,0) 30%, rgba(255,0,0,1) 100%);
+      }
     }
   }
 
@@ -486,9 +502,21 @@ section{
     &:before{
       transform: scale(3);
     }
-    ul li a{
+    ul li{
       opacity: 1;
-      transition-delay: .5s;
+      transform: translateY(0);
+      &:first-child{
+        transition-delay: .5s;
+      }
+      &:nth-child(2){
+        transition-delay: .6s;
+      }
+      &:nth-child(3){
+        transition-delay: .7s;
+      }
+      &:nth-child(4){
+        transition-delay: .8s;
+      }
     }
     
     .main-menu{
@@ -501,7 +529,19 @@ section{
       &__text-container{
         span{
           opacity: 1;
-          transition-delay: .5s;
+          transform: translateX(0);
+          &:first-child{
+            transition-delay: .5s;
+          }
+          &:nth-child(2){
+            transition-delay: .6s;
+          }
+          &:nth-child(3){
+            transition-delay: .7s;
+          }
+          &:nth-child(4){
+            transition-delay: .8s;
+          }
         }
       }
     }

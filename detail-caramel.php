@@ -1,6 +1,6 @@
 <?php include 'components/_head.php'?>
 
-<section class="section-detail-headline bg-green">
+<section class="section-detail-headline panel bg-green">
   <div class="section-detail-headline-container">
     <div class="section-detail-headline-scene">
       <img id="headline_caramel" data-depth="0.10" src="assets/images/detail-headline-caramel.png" alt="">

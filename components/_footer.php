@@ -98,49 +98,49 @@
 
 
 <script>
-// var controller = new ScrollMagic.Controller({
-//   globalSceneOptions: {
-//     triggerHook: 'onLeave',
-//     duration: "200%"
-//   }
-// });
+var controller = new ScrollMagic.Controller({
+  globalSceneOptions: {
+    triggerHook: 'onLeave',
+    duration: "200%"
+  }
+});
 </script>
 
 <script>
-// $(function() {
+$(function() {
 
-//   var coffee = TweenMax.to("#coffee", 0.5, {
-//     scaleY: 160,
-//     ease: Linear.easeNone
-//   });
+  //   var coffee = TweenMax.to("#coffee", 0.5, {
+  //     scaleY: 160,
+  //     ease: Linear.easeNone
+  //   });
 
-//   var slides = document.querySelectorAll("section.panel");
+  var slides = document.querySelectorAll("section.panel");
 
-//   // create scene for every slide
-//   for (var i = 0; i < slides.length; i++) {
-//     new ScrollMagic.Scene({
-//         triggerElement: slides[i]
-//       })
-//       .setPin(slides[i], {
-//         pushFollowers: false
-//       })
-//       // .addIndicators()
-//       .addTo(controller);
-//   }
-
-
-//   var cup = new ScrollMagic.Scene({
-//       triggerElement: "#trigger1",
-//       duration: 400
-//     })
-//     .setTween(coffee)
-//     // .addIndicators({
-//     //   name: "1 (duration: 300)"
-//     // })
-//     .addTo(controller);
+  //   // create scene for every slide
+  for (var i = 0; i < slides.length; i++) {
+    new ScrollMagic.Scene({
+        triggerElement: slides[i]
+      })
+      .setPin(slides[i], {
+        pushFollowers: false
+      })
+      // .addIndicators()
+      .addTo(controller);
+  }
 
 
-// });
+  //   var cup = new ScrollMagic.Scene({
+  //       triggerElement: "#trigger1",
+  //       duration: 400
+  //     })
+  //     .setTween(coffee)
+  //     // .addIndicators({
+  //     //   name: "1 (duration: 300)"
+  //     // })
+  //     .addTo(controller);
+
+
+});
 </script>
 </body>
 
