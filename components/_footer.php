@@ -1,9 +1,9 @@
 <footer class="footer bg-black">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row justify-content-between">
       <div class="col-md-4">
-        <div>Wings</div>
-        <p>
+        <img class="logo-wings" src="assets/images/logo-wings.png" alt="">
+        <p class="footer__address">
           PT.SAYAP MAS UTAMA<br />
           JL.TIPAR CAKUNG KAV.F 5-7<br />
           EAST JAKARTA 13910<br />
@@ -12,23 +12,31 @@
         <div class="footer__social-media mt-5 mb-4">
           <div class="row">
             <div class="col-3">
-              <a href="#">F</a>
+              <a href="#">
+                <img src="assets/images/facebook.png" alt="">
+              </a>
             </div>
             <div class="col-3">
-              <a href="#">I</a>
+              <a href="#">
+                <img src="assets/images/insta.png" alt="">
+              </a>
             </div>
             <div class="col-3">
-              <a href="#">T</a>
+              <a href="#">
+                <img src="assets/images/twitter.png" alt="">
+              </a>
             </div>
             <div class="col-3">
-              <a href="#">Y</a>
+              <a href="#">
+                <img src="assets/images/youtube.png" alt="">
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-7">
+      <div class="col-md-8">
         <div class="footer__menu">
-          <div class="row">
+          <div class="row justify-content-end">
             <div class="col-md-auto">
               <a href="#">About</a>
             </div>
@@ -51,13 +59,13 @@
               <a href="#">Social Media</a>
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-end">
             <div class="col-6">
               <div class="input-group mt-5">
-                <input type="text" class="form-control text-center" placeholder="Email Address"
+                <input type="text" class="form-control underline text-center" placeholder="Email Address"
                   aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+                  <button class="btn btn-white" type="button">Subscribe</button>
                 </div>
               </div>
             </div>
@@ -84,18 +92,9 @@
 </footer>
 
 
-<script src="assets/js/jquery-3.6.0.min.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/ScrollMagic.min.js"></script>
-<script src="assets/js/animation.gsap.js"></script>
-<script src="assets/js/parallax.min.js"></script>
-<!-- <script src="assets/js/debug.addIndicators.js"></script> -->
-<script src="assets/js/main.js"></script>
 
-<script>
-var scene = document.querySelector('.parallax-scene');
-var parallax = new Parallax(scene);
-</script>
+
+
 
 
 <script>
@@ -108,40 +107,40 @@ var parallax = new Parallax(scene);
 </script>
 
 <script>
-$(function() {
+// $(function() {
 
-      //   var coffee = TweenMax.to("#coffee", 0.5, {
-      //     scaleY: 160,
-      //     ease: Linear.easeNone
-      //   });
+//   var coffee = TweenMax.to("#coffee", 0.5, {
+//     scaleY: 160,
+//     ease: Linear.easeNone
+//   });
 
-      //   var slides = document.querySelectorAll("section.panel");
+//   var slides = document.querySelectorAll("section.panel");
 
-      //   // create scene for every slide
-      //   for (var i = 0; i < slides.length; i++) {
-      //     new ScrollMagic.Scene({
-      //         triggerElement: slides[i]
-      //       })
-      //       .setPin(slides[i], {
-      //         pushFollowers: false
-      //       })
-      //       // .addIndicators()
-      //       .addTo(controller);
-      //   }
-
-
-      //   var cup = new ScrollMagic.Scene({
-      //       triggerElement: "#trigger1",
-      //       duration: 400
-      //     })
-      //     .setTween(coffee)
-      //     // .addIndicators({
-      //     //   name: "1 (duration: 300)"
-      //     // })
-      //     .addTo(controller);
+//   // create scene for every slide
+//   for (var i = 0; i < slides.length; i++) {
+//     new ScrollMagic.Scene({
+//         triggerElement: slides[i]
+//       })
+//       .setPin(slides[i], {
+//         pushFollowers: false
+//       })
+//       // .addIndicators()
+//       .addTo(controller);
+//   }
 
 
-      // });
+//   var cup = new ScrollMagic.Scene({
+//       triggerElement: "#trigger1",
+//       duration: 400
+//     })
+//     .setTween(coffee)
+//     // .addIndicators({
+//     //   name: "1 (duration: 300)"
+//     // })
+//     .addTo(controller);
+
+
+// });
 </script>
 </body>
 

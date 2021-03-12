@@ -7,9 +7,14 @@
     <div id="coffee"></div>
   </div>
 </section> -->
-<section class="section-headline panel">
-  <div class="headline-text__container">
-    <img src="assets/images/ini-mau-gue.png" alt="">
+<section class="section-headline panel bg-red">
+  <div class="container">
+    <div class="headline-text__container">
+      <img src="assets/images/ini-mau-gue.png" alt="">
+    </div>
+    <div class="kopi kopi-1"><img src="assets/images/headline-kopi-1.png" alt=""></div>
+    <div class="kopi kopi-2"><img src="assets/images/headline-kopi-2.png" alt=""></div>
+    <div class="kopi kopi-3"><img src="assets/images/headline-kopi-tangan.png" alt=""></div>
   </div>
   <div class="parallax__container">
     <div class="parallax-scene">
@@ -19,11 +24,7 @@
       <div class="img-4" data-depth="0.40"><img src="assets/images/biji-kopi-4.png"></div>
     </div>
   </div>
-  <div class="headline-kopi">
-    <div class="kopi-1"><img src="assets/images/headline-kopi-1.png" alt=""></div>
-    <div class="kopi-2"><img src="assets/images/headline-kopi-2.png" alt=""></div>
-    <div class="kopi-3"><img src="assets/images/headline-kopi-tangan.png" alt=""></div>
-  </div>
+
   <div class="headline-scroll">
     <span>SCROLL</span>
     <img src="assets/images/icon-scroll.png" alt="">
@@ -97,5 +98,12 @@
 </section>
 <section class="panel"></section>
 
+
+<?php include 'components/_commons-js.php'?>
+
+<script>
+var scene = document.querySelector('.parallax-scene');
+var parallax = new Parallax(scene);
+</script>
 
 <?php include 'components/_footer.php'?>

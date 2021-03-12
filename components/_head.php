@@ -19,7 +19,7 @@
     <div class="container-fluid">
       <div class="row w-100 no-gutters justify-content-between align-items-center">
         <div class="col-1">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.php">
             <img class="nav-logo" src="assets/images/img-logo.png" alt="neo kopi" />
           </a>
         </div>
