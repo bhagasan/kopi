@@ -262,10 +262,10 @@ section.bg-red {
 
 #caramel_hand {
   position: absolute;
-  left: -20px;
+  left: -270px;
   top: 40%;
   transform: translateY(-50%);
-  width: 800px;
+  width: 910px;
 }
 
 #headline_caramel {
@@ -583,6 +583,20 @@ section.bg-red {
   width: 32px;
   display: block;
   margin: auto;
+}
+
+.detail-product-content {
+  max-width: 500px;
+  text-align: justify;
+  color: #532c0f;
+}
+.detail-product-content__title {
+  font-size: 42px;
+  font-family: Volte-bold;
+}
+.detail-product-content__desc {
+  font-family: Biko;
+  font-size: 19px;
 }
 
 .nav-logo {
