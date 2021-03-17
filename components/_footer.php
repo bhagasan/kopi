@@ -1,7 +1,7 @@
 <footer class="footer bg-black">
   <div class="container-fluid">
     <div class="row justify-content-between">
-      <div class="col-md-4">
+      <div class="col-md-4 text-center text-md-left">
         <img class="logo-wings" src="assets/images/logo-wings.png" alt="">
         <p class="footer__address">
           PT.SAYAP MAS UTAMA<br />
@@ -10,7 +10,7 @@
           INDONESIA
         </p>
         <div class="footer__social-media mb-4">
-          <div class="row">
+          <div class="row w-100">
             <div class="col-3">
               <a href="#">
                 <img src="assets/images/facebook.png" alt="">
@@ -36,7 +36,7 @@
       </div>
       <div class="col-md-8">
         <div class="footer__menu">
-          <div class="row justify-content-end">
+          <div class="row text-center text-md-right justify-content-end">
             <div class="col-md-auto">
               <a href="#">About</a>
             </div>
@@ -60,11 +60,11 @@
             </div>
           </div>
           <div class="row justify-content-end">
-            <div class="col-6">
-              <div class="input-group foem-email mt-5">
+            <div class="col-lg-6 col-md-8">
+              <div class="input-group foem-email mt-5 d-sm-flex d-block">
                 <input type="text" class="form-control underline text-center" placeholder="Email Address"
                   aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
+                <div class="input-group-append mt-2 mb-5 mt-mb-0 mt-md-0">
                   <button class="btn btn-white" type="button">Subscribe</button>
                 </div>
               </div>
@@ -74,8 +74,8 @@
       </div>
     </div>
     <div class="row justify-content-between copyright">
-      <div class="col-md-3">
-        <div class="row">
+      <div class="col-lg-3 col-md-5">
+        <div class="row text-center text-md-left mb-2 mb-md-0">
           <div class="col-6">
             <a href="#">Term & Condition</a>
           </div>
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 text-right">
+      <div class="col-lg-4 col-md-6 text-md-right text-center">
         <span>Copyright &copy;2020 PT.SAYAP MAS UTAMA</span>
       </div>
     </div>

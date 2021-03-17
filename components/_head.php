@@ -18,12 +18,12 @@
   <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
       <div class="row w-100 no-gutters justify-content-between align-items-center">
-        <div class="col-1">
+        <div class="col-3 col-md-2">
           <a class="navbar-brand" href="index.php">
             <img class="nav-logo" src="assets/images/img-logo.png" alt="neo kopi" />
           </a>
         </div>
-        <div class="col-1 text-right">
+        <div class="col-2 col-md-1 text-right">
           <button class="btn-menu" id="btnMenu">
             <img src="assets/images/menu-button-white.png" alt="">
           </button>

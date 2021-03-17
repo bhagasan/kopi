@@ -219,6 +219,10 @@ section{
   margin-bottom: 120px;
   z-index: 1;
   position: relative;
+
+  &.long-margin{
+    margin-bottom: 350px;
+  }
 }
 
 .btn-menu{
@@ -246,6 +250,7 @@ section{
 
   .foem-email{
     width: 320px;
+    max-width: 100%;
   }
 
   .logo-wings{
@@ -880,6 +885,7 @@ section{
   }
   #coffee-sachet_section1{
     width: 270px;
+    top: 480px;
   }
 
   #mic_section2{
@@ -888,7 +894,7 @@ section{
   }
   #coffee_section2{
     width: 410px;
-    left: 90px;
+    left: 64px;
   }
   #sachet_section2 {
     bottom: 130px;
@@ -907,7 +913,7 @@ section{
     top: 20px;
   }
   #whisk_section2{
-    width: 640px;
+    width: 610px;
   }
   #sachet_section3{
     width: 270px;
@@ -916,7 +922,7 @@ section{
 
   #spoons_section2{
     left: -40px;
-    top: 60px;
+    top: 110px;
     width: 270px;
   }
 }
@@ -930,32 +936,183 @@ section{
   .kopi-2{
     width: 210px;
     top: 20vh;
-    right: -42px;
+    right: 38px;
   }
   .kopi-3{
     width: 340px;
     bottom: 0px;
-    right: -110px;
+    right: -50px;
   }
+
+  #mic_section2{
+    top: 270px;
+  }
+
   #cap_section1{
     left: 72px;
-    top: 0;
+    top: -70px;
+    position: relative;
   }
   #coffee_section1{
-    width: 400px;
-    left: -95px;
-    top: 220px;
+    width: 500px;
+    left: -75px;
+    top: -80px;
+    position: relative;
   }
+  #coffee-sachet_section1{
+    top: 400px;
+    width: 320px;
+    left: 210px;
+  }
+  
   #camera_section1{
-    width: 360px;
+    width: 430px;
     right: -40px;
-    top: 330px;
+    top: 750px;
+  }
+  #coffee_section2{
+    width: 320px;
+    left: 60px;
+    top: 0;
+  }
+  #coffee_section3{
+    width: 310px;
+    left: -110px;
+    top: -70px;
+    position: relative;
+  }
+  #sachet_section3{
+    width: 220px;
+    top: 150px;
+    left: 160px;
+  }
+  #whisk_section2{
+    width: 520px;
+    right: -20px;
+  }
+
+  #kacamata_section2{
+    width: 270px;
+    bottom: -80px;
+    right: 110px;
+  }
+
+  #sachet_section2{
+    bottom: auto;
+    right: -80px;
+    width: 250px;
+    top: 110px;
+  }
+  .footer__social-media a img{
+    width: 42px;
   }
 }
 
 @media (max-width: 767.98px) {
-
+  #mic_section2{
+    top: 260px;
+  }
 }
 @media (max-width: 575.98px) { 
+  .footer{
+    padding: 42px 12px;
+  }
+  .foem-email .form-control{
+    width: 100%;
+  }
+  .foem-email .btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-logo{
+    width:62px;
+    height: 62px;
+  }
+  .navbar{
+    top: 0 !important;
+  }
+  .section__title{
+    font-size: 52px;
+  }
+  .section__desc{
+    font-size: 20px;
+  }
+  .kopi-3{
+    width: 230px;
+    right: -30px;
+  }
+  .kopi-2{
+    width: 110px;
+    right: 8px;
+  }
+  .kopi-1{
+    width: 110px;
+    left: 20px;
+  }
+  .headline-text__container{
+    margin-top: 31vh;
+  }
 
+  #foto_section1{
+    width: 180px;
+  }
+
+  #camera_section1{
+    width: 240px;
+    right: -20px;
+    top: 750px;
+  }
+  #coffee_section1{
+    width: 240px;
+  }
+  #coffee-sachet_section1{
+    top: 240px;
+    width: 140px;
+    left: 90px;
+  }
+  #mic_section2{
+    width: 100px;
+  }
+  #coffee_section2 {
+    width: 190px;
+    left: 70px;
+  }
+
+  .long-margin{
+    margin-bottom: 100px !important;
+  }
+  #sachet_section2{
+    right: 90px;
+    width: 160px;
+    top: 80px;
+  }
+
+  #kacamata_section2{
+    width: 170px;
+    bottom: -90px;
+    right: 0px;
+  }
+  #spoons_section2{
+    left: -40px;
+    top: 150px;
+    width: 190px;
+  }
+  #whisk_section2{
+    width: 400px;
+  }
+  #coffee_section3{
+    width: 220px;
+    left: -60px;
+    margin-bottom: 110px;
+  }
+  #sachet_section3{
+    width: 120px;
+    top: 40px;
+  }
+  .footer__social-media{
+    margin: auto;
+  }
+  .foem-email{
+    margin: auto;
+  }
 }
