@@ -340,6 +340,51 @@ section{
   width: 910px;
 }
 
+.glass-container{
+  padding-top: 681.5px;
+  width: 620px;
+}
+
+.shop-action{
+  display: flex;
+  float: right;
+  margin-left: auto;
+  align-items: center;
+  button{
+    background: white;
+    padding: 0px 18px;
+    height: 52px;
+    border-radius: 32px;
+    box-shadow: 0 4px 24px rgb(0 0 0 / 40%);
+    border: none;
+    outline: none !important;
+    margin-right: 20px;
+    font-family: Volte-bold;
+    color: #532c0f;
+    font-size: 21px;
+    line-height: 1;
+    img{
+      width: 9px;
+      display: inline-block;
+      margin-left: 18px;
+      transform: translateY(-2px);
+    }
+  }
+
+  a{
+    display: block;
+    margin-left: 18px;
+    img{
+      height: 46px;
+    }
+    &:hover{
+      img{
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
 #headline_caramel{
   width: 103% !important;
   top: -10% !important;

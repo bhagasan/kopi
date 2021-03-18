@@ -279,6 +279,48 @@ section.bg-red {
   width: 910px;
 }
 
+.glass-container {
+  padding-top: 681.5px;
+  width: 620px;
+}
+
+.shop-action {
+  display: flex;
+  float: right;
+  margin-left: auto;
+  align-items: center;
+}
+.shop-action button {
+  background: white;
+  padding: 0px 18px;
+  height: 52px;
+  border-radius: 32px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  border: none;
+  outline: none !important;
+  margin-right: 20px;
+  font-family: Volte-bold;
+  color: #532c0f;
+  font-size: 21px;
+  line-height: 1;
+}
+.shop-action button img {
+  width: 9px;
+  display: inline-block;
+  margin-left: 18px;
+  transform: translateY(-2px);
+}
+.shop-action a {
+  display: block;
+  margin-left: 18px;
+}
+.shop-action a img {
+  height: 46px;
+}
+.shop-action a:hover img {
+  transform: scale(1.05);
+}
+
 #headline_caramel {
   width: 103% !important;
   top: -10% !important;
