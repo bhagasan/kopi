@@ -122,6 +122,13 @@ section.bg-red {
   padding-left: 46px;
 }
 
+.sachet-link img {
+  transition-duration: 0.3s;
+}
+.sachet-link:hover img {
+  transform: scale(1.1);
+}
+
 #pin1 {
   position: fixed;
   left: 50%;
