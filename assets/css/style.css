@@ -87,6 +87,16 @@ section.bg-brown {
   background-position: center;
   background-repeat: no-repeat;
 }
+section.bg-brown-2 {
+  background-image: url("../images/bg-brown-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ini-mau-gue-text {
+  max-width: 100%;
+}
 
 .sub-section {
   width: 100%;
@@ -271,6 +281,14 @@ section.bg-brown {
 .zip-container img:last-child {
   position: absolute;
   right: 0;
+}
+
+.slide-item-container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 .section-detail-headline-container {
