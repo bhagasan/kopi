@@ -92,7 +92,7 @@
 
 body{
   font-family: 'Volte';
-  background-color: #d20107;
+  // background-color: #d20107;
 }
 // .section--home{
 //   height: 300vh;
@@ -291,9 +291,11 @@ section{
     width: 280px;
     text-align: center;
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     a{
       img{
-        width: 52px;
+        width: 38px;
       }
     }
   }
@@ -1134,6 +1136,10 @@ section{
   }
   .mobile-auto-height{
     min-height: auto !important;
+  }
+  .footer .foem-email{
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 575.98px) { 

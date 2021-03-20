@@ -56,7 +56,6 @@
 }
 body {
   font-family: "Volte";
-  background-color: #d20107;
 }
 
 section {
@@ -233,9 +232,11 @@ section.bg-brown {
   width: 280px;
   text-align: center;
   margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer__social-media a img {
-  width: 52px;
+  width: 38px;
 }
 
 .section-detail-headline {
@@ -1054,6 +1055,11 @@ section.bg-brown {
 
   .mobile-auto-height {
     min-height: auto !important;
+  }
+
+  .footer .foem-email {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 575.98px) {

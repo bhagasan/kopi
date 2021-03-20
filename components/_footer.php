@@ -1,7 +1,7 @@
 <footer class="footer bg-black">
   <div class="container-fluid">
     <div class="row justify-content-between">
-      <div class="col-md-4 text-center text-md-left">
+      <div class="col-md-3 text-center text-md-left">
         <img class="logo-wings" src="assets/images/logo-wings.png" alt="">
         <p class="footer__address">
           PT.SAYAP MAS UTAMA<br />
@@ -34,28 +34,28 @@
           </div>
         </div>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-9">
         <div class="footer__menu">
           <div class="row text-center text-md-right justify-content-end">
-            <div class="col-md-auto">
+            <div class="col-lg-auto col-12">
               <a href="#">About</a>
             </div>
-            <div class="col-md-auto">
+            <div class="col-lg-auto col-12">
               <a href="#">Blog</a>
             </div>
-            <div class="col-md-auto">
+            <div class="col-lg-auto col-12">
               <a href="#">Contact Us</a>
             </div>
-            <div class="col-md-auto">
+            <div class="col-lg-auto col-12">
               <a href="#">FAQ</a>
             </div>
-            <div class="col-md-auto">
+            <div class="col-lg-auto col-12">
               <a href="#">Newsletter</a>
             </div>
-            <div class="col-md-auto">
+            <div class="col-lg-auto col-12">
               <a href="#">Subscription</a>
             </div>
-            <div class="col-md-auto">
+            <div class="col-lg-auto col-12">
               <a href="#">Social Media</a>
             </div>
           </div>
