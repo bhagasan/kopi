@@ -74,7 +74,7 @@
   </div>
 
 </section>
-<section class="panel bg-green">
+<section class="panel bg-green mobile-auto-height">
   <img class="w-100 mt-5" src="assets/images/caramel-people.png" alt="">
 </section>
 <section class="panel bg-green">

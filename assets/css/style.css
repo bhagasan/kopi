@@ -289,6 +289,7 @@ section.bg-red {
   top: 0px;
   left: -180px;
   width: 750px;
+  pointer-events: none;
 }
 
 .shop-action {
@@ -1010,8 +1011,9 @@ section.bg-red {
 
   #mocha_hand {
     top: 10px;
-    left: -10px;
+    left: 50%;
     width: 520px;
+    transform: translateX(-80%);
   }
 
   .detail-product-content {
@@ -1029,6 +1031,19 @@ section.bg-red {
   }
 }
 @media (max-width: 575.98px) {
+  .shop-action button {
+    margin-right: 0;
+  }
+  .shop-action button img {
+    margin-left: 8px;
+  }
+
+  #caramel_hand {
+    width: 540px;
+    left: 50%;
+    transform: translate(-75%, -50%);
+  }
+
   .footer {
     padding: 42px 12px;
   }
@@ -1150,6 +1165,10 @@ section.bg-red {
 
   .foem-email {
     margin: auto;
+  }
+
+  .mobile-auto-height {
+    min-height: auto !important;
   }
 }
 

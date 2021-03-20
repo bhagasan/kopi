@@ -74,7 +74,7 @@
   </div>
 
 </section>
-<section class="panel bg-red">
+<section class="panel bg-red mobile-auto-height">
   <img class="w-100 mt-5" src="assets/images/mocha-people.png" alt="">
 </section>
 <section class="panel bg-red">
