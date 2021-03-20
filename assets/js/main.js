@@ -4,6 +4,17 @@
 
     $("#btnMenu").on("click", function(){
       $("#mainMenu").toggleClass("main-menu--active");
+      if($("#mainMenu").hasClass("main-menu--active")){
+        $("body").css({
+          "height":"100vh",
+          "overflow":"hidden"
+        });
+      }else{
+        $("body").css({
+          "height":"auto",
+          "overflow":"auto"
+        });
+      }
     });
 
     $("#btnMenuClose").on("click", function(){

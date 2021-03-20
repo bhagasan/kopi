@@ -310,6 +310,9 @@ section.bg-brown-2 {
   color: white;
   font-family: Volte-Bold;
 }
+.btn--outline:hover {
+  color: white;
+}
 
 .btn--fill {
   border: 1px solid white;
@@ -850,21 +853,31 @@ section.bg-brown-2 {
   right: 0;
   top: 0;
   opacity: 0;
+  transition-delay: 0.35s;
+  transition-duration: 1s;
 }
 .main-menu-thumb--active {
   opacity: 1;
+  transition-delay: 0;
+}
+.main-menu-thumb--active img {
+  transition-timing-function: cubic-bezier(0.43, 0.51, 0.52, 1);
+  transform: translateY(0) !important;
+  transition-duration: 0.5s;
 }
 .main-menu-thumb#thumbHome img:first-child {
   right: 20px;
   position: relative;
   top: 0;
   width: 490px;
+  transform: translateY(-30px);
 }
 .main-menu-thumb#thumbHome img:last-child {
   position: absolute;
   bottom: -40px;
   right: 330px;
   width: 390px;
+  transform: translateY(-80px);
 }
 .main-menu-thumb#thumbProduct img {
   width: 260px;
@@ -873,15 +886,21 @@ section.bg-brown-2 {
 .main-menu-thumb#thumbProduct img:first-child {
   margin-right: 100px;
   margin-bottom: 140px;
+  transform: translateY(-30px);
 }
 .main-menu-thumb#thumbProduct img:nth-child(2) {
   position: absolute;
   right: 210px;
   top: 140px;
+  transform: translateY(-80px);
 }
 .main-menu-thumb#thumbProduct img:last-child {
   margin-bottom: 140px;
   margin-right: 30px;
+  transform: translateY(-50px);
+}
+.main-menu-thumb#thumbIniMauGue img {
+  transform: translateY(-80px);
 }
 .main-menu-thumb#thumbRecipe img {
   display: inline-block;
@@ -892,18 +911,21 @@ section.bg-brown-2 {
   width: 180px;
   z-index: 1;
   position: relative;
+  transform: translateY(-80px);
 }
 .main-menu-thumb#thumbRecipe img:nth-child(2) {
   position: absolute;
   right: 70px;
   bottom: 30px;
   width: 320px;
+  transform: translateY(-30px);
 }
 .main-menu-thumb#thumbRecipe img:last-child {
   margin-top: 90px;
   width: 220px;
   z-index: 1;
   position: relative;
+  transform: translateY(-50px);
 }
 
 @media (max-width: 1199.98px) {
