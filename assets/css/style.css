@@ -291,6 +291,48 @@ section.bg-brown-2 {
   height: 100vh;
 }
 
+.ini-mau-gue-paragraph {
+  color: white;
+  font-size: 18.5px;
+  margin-top: 32px;
+}
+.ini-mau-gue-paragraph strong {
+  font-family: Volte-Bold;
+}
+
+.btn--outline {
+  border: 1px solid white;
+  border-radius: 52px;
+  height: 52px;
+  font-size: 18.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: white;
+  font-family: Volte-Bold;
+}
+
+.btn--fill {
+  border: 1px solid white;
+  border-radius: 52px;
+  height: 52px;
+  font-size: 18.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: #FFD523;
+  background-color: white;
+  font-family: Volte-Bold;
+}
+.btn--fill:hover {
+  color: #FFD523;
+}
+
+.neo-product > div:first-child {
+  margin-right: -52px;
+}
+.neo-product > div:last-child {
+  margin-left: -52px;
+}
+
 .section-detail-headline-container {
   position: absolute;
   left: 0;
@@ -502,7 +544,6 @@ section.bg-brown-2 {
   font-family: Volte-bold;
 }
 .main-menu__text-container {
-  text-align: right;
   padding-right: 72px;
 }
 .main-menu__text-container span {
@@ -868,6 +909,10 @@ section.bg-brown-2 {
 @media (max-width: 1199.98px) {
   #camera_section1 {
     width: 360px;
+  }
+
+  .main-menu__text-container {
+    padding-right: 0;
   }
 
   .glass-container {
