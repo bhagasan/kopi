@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-md-4 col-6"><a href="detail-moccachino.php" class="sachet-link">
+      <div class="col-md-4 col-6"><a href="detail-mocha.php" class="sachet-link">
           <img class="w-100 mb-md-0 mb-3" src="assets/images/headline-sachet-moccachino.png" alt="">
         </a></div>
       <div class="col-md-4 col-6"><a href="detail-caramel.php" class="sachet-link">

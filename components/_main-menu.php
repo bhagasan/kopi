@@ -34,7 +34,7 @@
           <a href="#">HOME</a>
         </li>
         <li class="link-thumb" data-target="#thumbProduct">
-          <a href="detail-caramel.php">PRODUCT</a>
+          <a href="product.php">PRODUCT</a>
         </li>
         <li class="link-thumb" data-target="#thumbIniMauGue">
           <a href="#">#IniMauGue</a>

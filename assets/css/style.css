@@ -273,15 +273,22 @@ section.bg-red {
 
 #caramel_hand {
   position: absolute;
-  left: -270px;
+  left: -209px;
   top: 40%;
   transform: translateY(-50%);
-  width: 910px;
+  width: 830px;
 }
 
 .glass-container {
-  padding-top: 681.5px;
+  padding-top: 630px;
   width: 620px;
+}
+
+#mocha_hand {
+  position: absolute;
+  top: 0px;
+  left: -180px;
+  width: 750px;
 }
 
 .shop-action {
@@ -640,7 +647,6 @@ section.bg-red {
 
 .detail-product-content {
   max-width: 500px;
-  text-align: justify;
   color: #532c0f;
 }
 .detail-product-content__title {
@@ -648,6 +654,7 @@ section.bg-red {
   font-family: Volte-bold;
 }
 .detail-product-content__desc {
+  text-align: justify;
   font-family: Biko;
   font-size: 19px;
 }
@@ -821,6 +828,17 @@ section.bg-red {
     width: 360px;
   }
 
+  .glass-container {
+    width: 420px;
+    padding-top: 560px;
+  }
+
+  #mocha_hand {
+    top: -40px;
+    left: -220px;
+    width: 690px;
+  }
+
   #coffee_section1 {
     width: 450px;
     left: -175px;
@@ -975,6 +993,34 @@ section.bg-red {
 
   .footer__social-media a img {
     width: 42px;
+  }
+
+  .shop-action {
+    float: unset;
+    width: 460px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+
+  .glass-container {
+    width: 100%;
+    padding-top: 440px;
+  }
+
+  #mocha_hand {
+    top: 10px;
+    left: -10px;
+    width: 520px;
+  }
+
+  .detail-product-content {
+    margin: auto;
+  }
+
+  #caramel_hand {
+    width: 540px;
+    left: -19px;
   }
 }
 @media (max-width: 767.98px) {

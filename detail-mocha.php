@@ -1,10 +1,10 @@
 <?php include 'components/_head.php'?>
 
-<section class="section-detail-headline panel bg-green">
+<section class="section-detail-headline panel bg-red">
   <div class="section-detail-headline-container">
     <div class="section-detail-headline-scene">
-      <img id="headline_caramel" data-depth="0.10" src="assets/images/detail-headline-caramel.png" alt="">
-      <img id="headline_caramel_kopi" data-depth="0.30" src="assets/images/detail-headline-kopi.png" alt="">
+      <img id="headline_caramel" data-depth="0.10" src="assets/images/detail-mocha-headline-cokelat.png" alt="">
+      <img id="headline_caramel_kopi" data-depth="0.30" src="assets/images/detail-tiramisu-headline-biji.png" alt="">
     </div>
   </div>
   <div class="img-sobek-container">
@@ -13,7 +13,7 @@
       <img id="sachet_a_1" src="assets/images/detail-caramel-sachet-a_1.png" alt="">
       <img id="sachet_a_2" src="assets/images/detail-caramel-sachet-a_2.png" alt="">
     </div>
-    <img id="sachet_b" src="assets/images/detail-caramel-sachet-b.png" alt="">
+    <img id="sachet_b" src="assets/images/detail-mocha-sachet-b.png" alt="">
   </div>
   <div class="headline-scroll">
     <span>SCROLL</span>
@@ -25,7 +25,7 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div class="glass-container">
-          <img id="caramel_hand" class="" src="assets/images/Group 70.png" alt="">
+          <img id="mocha_hand" class="" src="assets/images/kopi-tangan-coklat.png" alt="">
           <div class="shop-action">
             <button>Get Your Neo Coffee <img src="assets/images/icon-chevron.png" alt=""></button>
             <a href="#"><img src="assets/images/icon-shopee.png" alt="shopee"></a>
@@ -74,10 +74,10 @@
   </div>
 
 </section>
-<section class="panel bg-green">
-  <img class="w-100 mt-5" src="assets/images/caramel-people.png" alt="">
+<section class="panel bg-red">
+  <img class="w-100 mt-5" src="assets/images/mocha-people.png" alt="">
 </section>
-<section class="panel bg-green">
+<section class="panel bg-red">
 </section>
 
 <?php include 'components/_commons-js.php'?>
