@@ -116,20 +116,23 @@
     </div>
   </div>
 </section>
-<section class="panel bg-yellow">
+<section class="bg-yellow">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-7 text-center">
-        <!-- <div class="section-title">
-          <img src="" alt="">
-        </div> -->
+      <div class="col-md-8 col-10">
+        <br />
+        <img class="w-100 mt-5" src="assets/images/neo title.png" alt="">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10 col-12 text-center">
         <div class="ini-mau-gue-paragraph">
           <strong>
             Rasa kopi yang mantul dan varian yang sabi dari Neo Coffee<br />
             bisa bantu gue dapetin #IniMauGue
           </strong>
         </div>
-        <button class="btn btn--fill mt-4 mb-5">Get Your Neo Coffee</button>
+        <button class="btn btn--fill mt-4 mb-2">Get Your Neo Coffee</button>
       </div>
     </div>
     <div class="row no-gutters justify-content-center align-items-end neo-product">
