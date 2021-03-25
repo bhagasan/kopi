@@ -21,13 +21,13 @@
       $("#mainMenu").removeClass("main-menu--active");
     });
 
-    $("#action_sobek").on("mousedown", function(){
+    $("#action_sobek").on("mousedown touchstart", function(){
       var container = $(".img-sobek-container");
       var containerX = container.offset().left;
       var maxMovement = container.width();
       var movement = 0;
       var zip1 = $("#sachet_a_1");
-      $("body").on("mousemove", function(e){
+      $("body").on("mousemove touchmove", function(e){
         movement = e.pageX - containerX;
         if(movement >= 0 && movement <= maxMovement){
           $("#action_sobek").css({
@@ -40,9 +40,9 @@
           })
         }
       });
-      $("body").on("mouseup", function(){
+      $("body").on("mouseup touchend", function(){
         var devider = maxMovement*2/3;
-        $("body").off("mousemove");
+        $("body").off("mousemove touchmove");
         if(movement <= devider ){
           $("#action_sobek").css({
             transform: 'translateX(0)',
