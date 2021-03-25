@@ -13,7 +13,9 @@
       <img id="sachet_a_1" src="assets/images/detail-caramel-sachet-a_1.png" alt="">
       <img id="sachet_a_2" src="assets/images/detail-caramel-sachet-a_2.png" alt="">
     </div>
+    <img id="butiran" src="assets/images/butiran.png" alt="">
     <img id="sachet_b" src="assets/images/detail-mocha-sachet-b.png" alt="">
+    <img id="cup_fill" src="assets/images/cup-animation.png" alt="">
   </div>
   <div class="headline-scroll">
     <span>SCROLL</span>

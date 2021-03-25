@@ -168,6 +168,44 @@ section.bg-brown-2 {
   overflow: hidden;
 }
 
+.img-sobek-container {
+  transition-duration: 0.5s;
+}
+.img-sobek-container #butiran {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+.img-sobek-container #cup_fill {
+  position: absolute;
+  left: 50%;
+  bottom: -160px;
+  transform: translate(-50%, 80px);
+  width: 480px;
+  max-width: unset;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+.img-sobek-container-rotate {
+  transform: translateY(100px);
+}
+.img-sobek-container-rotate #butiran {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+.img-sobek-container-rotate #sachet_b {
+  transform: rotate(-120deg) translate(240px, 340px);
+  transition-duration: 0.5s;
+}
+.img-sobek-container-rotate #cup_fill {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
 #coffee {
   position: absolute;
   bottom: 0;
@@ -525,7 +563,7 @@ section.bg-brown-2 {
 
 .img-sobek-container {
   position: relative;
-  width: 400px;
+  width: 360px;
 }
 .img-sobek-container img {
   max-width: 100%;

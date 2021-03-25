@@ -61,7 +61,8 @@
           $(".zip-container").css({
             transform: 'rotate(12deg) translate(50px, -50px)',
             opacity: 0
-          })
+          });
+          $(".img-sobek-container").addClass("img-sobek-container-rotate");
         }
       })
     });

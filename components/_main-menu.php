@@ -31,16 +31,16 @@
     <div class="col-lg-5 text-lg-left text-center">
       <ul>
         <li class="link-thumb" data-target="#thumbHome">
-          <a href="#">HOME</a>
+          <a href="index.php">HOME</a>
         </li>
         <li class="link-thumb" data-target="#thumbProduct">
           <a href="product.php">PRODUCT</a>
         </li>
         <li class="link-thumb" data-target="#thumbIniMauGue">
-          <a href="#">#IniMauGue</a>
+          <a href="ini-mau-gue.php">#IniMauGue</a>
         </li>
         <li class="link-thumb" data-target="#thumbRecipe">
-          <a href="#">RECIPE</a>
+          <a href="recipe.php">RECIPE</a>
         </li>
       </ul>
     </div>

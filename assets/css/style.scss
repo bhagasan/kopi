@@ -209,6 +209,48 @@ section {
 	overflow: hidden;
 }
 
+.img-sobek-container {
+	transition-duration: 0.5s;
+
+	#butiran {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 300px;
+		opacity: 0;
+		transition-duration: 0.5s;
+	}
+	#cup_fill {
+		position: absolute;
+		left: 50%;
+		bottom: -160px;
+		transform: translate(-50%, 80px);
+		width: 480px;
+		max-width: unset;
+		opacity: 0;
+		transition-duration: 0.5s;
+	}
+
+	&-rotate {
+		transform: translateY(100px);
+
+		#butiran {
+			opacity: 1;
+			transition-delay: 0.5s;
+		}
+		#sachet_b {
+			transform: rotate(-120deg) translate(240px, 340px);
+			transition-duration: 0.5s;
+		}
+
+		#cup_fill {
+			opacity: 1;
+			transform: translate(-50%, 0);
+		}
+	}
+}
+
 #coffee {
 	position: absolute;
 	bottom: 0;
@@ -588,7 +630,7 @@ section {
 
 .img-sobek-container {
 	position: relative;
-	width: 400px;
+	width: 360px;
 	img {
 		max-width: 100%;
 	}
