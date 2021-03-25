@@ -351,12 +351,12 @@ section.bg-brown-2 {
   font-size: 18.5px;
   padding-left: 18px;
   padding-right: 18px;
-  color: #FFD523;
+  color: #ffd523;
   background-color: white;
   font-family: Volte-Bold;
 }
 .btn--fill:hover {
-  color: #FFD523;
+  color: #ffd523;
 }
 
 .neo-product > div:first-child {
@@ -377,6 +377,10 @@ section.bg-brown-2 {
 .section-detail-headline-scene {
   width: 100%;
   height: 100%;
+}
+
+.section-recipe-title {
+  height: 52px;
 }
 
 #caramel_hand {
@@ -446,6 +450,47 @@ section.bg-brown-2 {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-container.slide-recipe-container {
+  width: 1200px;
+  max-width: 100%;
+}
+.swiper-container.slide-recipe-container .swiper-wrapper {
+  padding: 42px 0;
+}
+
+.swiper-slide {
+  height: calc((100% - 30px) / 2);
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide.swiper-slide-active.scale {
+  z-index: 4;
+  transform: scale(1.4);
+  transition-duration: 0.3s;
+}
+
+.recipe-slide img {
+  width: 320px;
+  max-width: 100% !important;
 }
 
 #headline_caramel {
@@ -936,6 +981,16 @@ section.bg-brown-2 {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.recipe-desc {
+  max-width: 800px;
+  font-size: 18px;
+  color: white;
 }
 
 #coffee_section2 {
@@ -1455,3 +1510,5 @@ section.bg-brown-2 {
     margin: auto;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
