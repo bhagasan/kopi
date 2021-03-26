@@ -93,10 +93,6 @@
 
 
 
-
-
-
-
 <script>
 var controller = new ScrollMagic.Controller({
   globalSceneOptions: {
@@ -108,12 +104,6 @@ var controller = new ScrollMagic.Controller({
 
 <script>
 $(function() {
-
-  //   var coffee = TweenMax.to("#coffee", 0.5, {
-  //     scaleY: 160,
-  //     ease: Linear.easeNone
-  //   });
-
   var slides = document.querySelectorAll("section.panel");
 
   //   // create scene for every slide
@@ -128,16 +118,6 @@ $(function() {
       .addTo(controller);
   }
 
-
-  //   var cup = new ScrollMagic.Scene({
-  //       triggerElement: "#trigger1",
-  //       duration: 400
-  //     })
-  //     .setTween(coffee)
-  //     // .addIndicators({
-  //     //   name: "1 (duration: 300)"
-  //     // })
-  //     .addTo(controller);
 
 
 });

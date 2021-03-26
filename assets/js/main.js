@@ -34,35 +34,55 @@
             transform: 'translateX('+movement+'px)',
             transitionDuration: '0s'
           });
-          zip1.css({
-            transform: 'rotate('+movement/50+'deg)',
-            transitionDuration: '0s'
-          })
+          ////////////////// #OPSI 1
+          // zip1.css({
+          //   transform: 'rotate('+movement/50+'deg)',
+          //   transitionDuration: '0s'
+          // })
+          ////////////////// !OPSI 1
         }
+
+        ////////////////// #OPSI 2
+        $('html, body').animate({
+            scrollTop: movement
+        }, 1);
+        ////////////////// !OPSI 2
       });
+      
       $("body").on("mouseup touchend", function(){
-        var devider = maxMovement*2/3;
+        var devider = maxMovement*1/3;
         $("body").off("mousemove touchmove");
         if(movement <= devider ){
           $("#action_sobek").css({
             transform: 'translateX(0)',
             transitionDuration: '.3s'
           });
-          zip1.css({
-            transform: 'rotate(0deg)',
-            transitionDuration: '.3s'
-          })
+          ////////////////// #OPSI 1
+          // zip1.css({
+          //   transform: 'rotate(0deg)',
+          //   transitionDuration: '.3s'
+          // })
+          ////////////////// !OPSI 1
         }else{
           $("#action_sobek").css({
             transform: 'translateX('+maxMovement+'px) scale(1.5)',
             transitionDuration: '.3s',
             opacity: 0
           });
-          $(".zip-container").css({
-            transform: 'rotate(12deg) translate(50px, -50px)',
-            opacity: 0
-          });
-          $(".img-sobek-container").addClass("img-sobek-container-rotate");
+          ////////////////// #OPSI 1
+          // $(".img-sobek-container").addClass("img-sobek-container-rotate");
+          ////////////////// !OPSI 1
+
+          ////////////////// #OPSI 2
+          $('html, body').animate({
+              scrollTop: $("#trigger5").offset().top + 1000
+          }, 2000);
+          ////////////////// !OPSI 2
+          setTimeout(function(){
+            $("#action_sobek").css({
+            transform: 'translateX(0)'
+          }, 500);
+          })
         }
       })
     });
@@ -72,6 +92,23 @@
       $(".main-menu-thumb").removeClass("main-menu-thumb--active");
       $(target).addClass("main-menu-thumb--active");
     })
+
+    ////////////////// #OPSI 2
+    $(window).scroll(function (event) {
+      var scroll = $(window).scrollTop();
+      if(scroll < 250){
+        $("#action_sobek").css({
+            // transform: 'translateX(0px) scale(1)',
+            opacity: 1
+          });
+      }else{
+        $("#action_sobek").css({
+            transitionDuration: '.3s',
+            opacity: 0
+          });
+      }
+    });
+    ////////////////// !OPSTI 2
 
 })(jQuery);
 
