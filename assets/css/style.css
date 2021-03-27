@@ -213,7 +213,7 @@ section.bg-brown-2 {
 }
 
 #trigger4 {
-  margin-top: 70vh;
+  margin-top: 60vh;
 }
 
 #trigger5 {
@@ -322,7 +322,7 @@ section.bg-brown-2 {
 #headline_cloud {
   position: absolute;
   width: 100%;
-  top: 50% !important;
+  top: 50vh !important;
   -webkit-transform: translateY(-50%) !important;
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
@@ -547,7 +547,7 @@ section.bg-brown-2 {
 #headline_tiramisu {
   width: 106% !important;
   top: 10% !important;
-  left: -4% !important;
+  left: 1% !important;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1078,7 +1078,7 @@ img {
 }
 
 .section--home {
-  height: 500vh;
+  height: 240vh;
 }
 
 .main-menu-thumb {
@@ -1431,6 +1431,10 @@ img {
   }
   .shop-action button img {
     margin-left: 8px;
+  }
+
+  #sachet_main {
+    width: 280px;
   }
 
   #cap_section1 {

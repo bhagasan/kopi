@@ -26,7 +26,7 @@
       var containerX = container.offset().left;
       var maxMovement = container.width();
       var movement = 0;
-      var zip1 = $("#sachet_a_1");
+      // var zip1 = $("#sachet_a_1");
       $("body").on("mousemove touchmove", function(e){
         movement = e.pageX - containerX;
         if(movement >= 0 && movement <= maxMovement){
@@ -43,14 +43,14 @@
         }
 
         ////////////////// #OPSI 2
-        $('html, body').animate({
-            scrollTop: movement
-        }, 1);
+        // $('html, body').animate({
+        //     scrollTop: movement
+        // }, 1);
         ////////////////// !OPSI 2
       });
       
       $("body").on("mouseup touchend", function(){
-        var devider = maxMovement*1/3;
+        var devider = maxMovement*1/4;
         $("body").off("mousemove touchmove");
         if(movement <= devider ){
           $("#action_sobek").css({
@@ -75,14 +75,9 @@
 
           ////////////////// #OPSI 2
           $('html, body').animate({
-              scrollTop: $("#trigger5").offset().top + 1000
+              scrollTop: $("#trigger5").offset().top
           }, 2000);
           ////////////////// !OPSI 2
-          setTimeout(function(){
-            $("#action_sobek").css({
-            transform: 'translateX(0)'
-          }, 500);
-          })
         }
       })
     });
@@ -96,12 +91,7 @@
     ////////////////// #OPSI 2
     $(window).scroll(function (event) {
       var scroll = $(window).scrollTop();
-      if(scroll < 250){
-        $("#action_sobek").css({
-            // transform: 'translateX(0px) scale(1)',
-            opacity: 1
-          });
-      }else{
+      if(scroll > 150){
         $("#action_sobek").css({
             transitionDuration: '.3s',
             opacity: 0
